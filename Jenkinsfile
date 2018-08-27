@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Running Build Automation'
         sh './gradlew build'
-        archieveArtifacts dist/train-schedult
+        archieveArtifacts dist/trainSchedule.zip
       }
     }
   } 
